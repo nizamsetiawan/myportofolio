@@ -1,0 +1,89 @@
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-prev-next">
+                <a class="ajax-page-load" href="ikasmansi.html"><i class="lnr lnr-chevron-left"></i></a>
+                <a class="ajax-page-load" href="webprofile2.html"><i class="lnr lnr-chevron-right"></i></a>
+            </div>
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
+            </div>
+        </div>
+
+        <div class="ajax-page-title">
+            <h1>Nomads Travel</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8 col-md-8 portfolio-block">
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <img src="img/portfolio/nomads.png" alt="" />
+                    </div>
+                </div>
+
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function ($) {
+                        $('.portfolio-page-carousel').imagesLoaded(function () {
+                            $('.portfolio-page-carousel').owlCarousel({
+                                smartSpeed: 1200,
+                                items: 1,
+                                loop: true,
+                                dots: true,
+                                nav: true,
+                                navText: false,
+                                margin: 10,
+                                autoHeight: true
+                            });
+                        });
+                    });
+                </script>
+            </div>
+
+            <div class="col-sm-4 col-md-4 portfolio-block">
+                <!-- Project Description -->
+                <div class="project-description">
+                    <div class="block-title">
+                        <h3>Description</h3>
+                    </div>
+                    <ul class="project-general-info">
+                        <li>
+                            <p><i class="fa fa-user"></i>as fullstack Developer</p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-globe"></i> <a href="https://web-travel-nomads.netlify.app/"
+                                    target="_blank">web-travel-nomads.netlify.app</a></p>
+                        </li>
+
+                    </ul>
+
+                    <p class="text-justify">Nomads Travel is an online platform dedicated to adventurers and travel
+                        enthusiasts. We understand your passion for exploring the world and creating unforgettable
+                        experiences. With hundreds of travel destinations available, we provide comprehensive guides to
+                        plan your trip, offering information on exciting places, accommodations, local cuisine, and
+                        activities to enjoy.
+
+                    </p>
+                    <!-- /Project Description -->
+
+                    <!-- Technology -->
+                    <div class="tags-block">
+                        <div class="block-title">
+                            <h3>Technology</h3>
+                        </div>
+                        <ul class="tags">
+                            <li><a>Bootstrap</a></li>
+                            <li><a>laravel</a></li>
+                            <li><a>Js</a></li>
+                            <li><a>Php</a></li>
+                        </ul>
+                    </div>
+                    <!-- /Technology -->
+
+                </div>
+                <!-- Project Description -->
+            </div>
+        </div>
+    </div>
+</div>
